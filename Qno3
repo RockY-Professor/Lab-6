@@ -8,17 +8,18 @@ int main() {
 
     cout << " Enter Range of Even numbers to be Printed " << '\n';
     cin >> i >> n;
+    cout << "Results = ";
     while (i <= n) {
 
         
 
         if (i % 2 == 0) {
 
-            cout << i << " ";
+            cout  << i << " ";
         }
 
         i++;
     }
-
+   
     return 0;
 }
