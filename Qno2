@@ -31,10 +31,10 @@ int main() {
 		}
 
 		cout << " Results = " << result << '\n';
-		char loopbreaker = 'Y';
-		cout << " Do you want to Exit? \n " << "Press Y to exit or any other key to continue " << '\n';
+		char loopbreaker = 'y';
+		cout << " Do you want to Exit? \n " << "Press y to exit or any other key to continue " << '\n';
 		cin >> loopbreaker;
-		if (loopbreaker == 'Y') {
+		if (loopbreaker == 'y') {
 
 
 			break;
