@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+int main() {
+	do {
+		float firstnumber, secondnumber;
+		cout << " Enter Two Digits " << '\n';
+		cin >> firstnumber >> secondnumber;
+		char op;
+		cout << " Enter Arithmetic Operators " << '\n';
+		cin >> op;
+		int result = 0;
+		if (op == '+') {
+
+			result = firstnumber + secondnumber;
+		}
+		else if (op == '-') {
+
+			result = firstnumber - secondnumber;
+		}
+		else if (op == '*') {
+
+			result = firstnumber * secondnumber;
+		}
+		else if (op == '/') {
+
+			result = firstnumber / secondnumber;
+		}
+		else {
+
+			cout << " Invalid Operator " << '\n';
+		}
+
+		cout << " Results = " << result << '\n';
+		char loopbreaker = 'Y';
+		cout << " Do you want to Exit? \n " << "Press Y to exit or any other key to continue " << '\n';
+		cin >> loopbreaker;
+		if (loopbreaker == 'Y') {
+
+
+			break;
+		}
+		system("cls");
+
+	} while (1);
+	return 0;
+}
